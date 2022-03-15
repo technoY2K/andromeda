@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "andromeda:lib"
+
+    - path: "./app/Main.hs"
+      component: "andromeda:exe:andromeda-exe"
+
+    - path: "./app/Paths_andromeda.hs"
+      component: "andromeda:exe:andromeda-exe"
+
+    - path: "./test"
+      component: "andromeda:test:andromeda-test"
